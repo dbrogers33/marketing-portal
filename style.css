@@ -1,0 +1,178 @@
+/* -------------------------------------
+GENERAL
+--------------------------------------*/
+body {
+  background-color: #f2f2f2 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.img-responsive {
+  width: 100% !important;
+}
+
+.drop-shadow {
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.1);
+}
+
+.row {
+  background-color: white;
+}
+
+.content {
+  margin-top: 1em;
+  padding: 4em 0;
+}
+
+label {
+  display: block !important;
+}
+
+.dark-filter {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.0);
+  transition: .5s;
+}
+
+.dark-filter:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* -------------------------------------
+NAVIGATION
+--------------------------------------*/
+.main-navigation {
+  background-color: white;
+}
+
+.main-navigation nav ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 2em;
+  color: #023400;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #023400;
+  border-bottom: solid 5px #023400;
+  padding-bottom: 15px;
+}
+
+nav ul li a:active {
+  text-decoration: none;
+  color: #023400;
+  border-bottom: solid 5px #023400;
+  padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 990px) {
+  .mobile-navigation, .mobile-nav-button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+    nav ul {
+      display: none;
+    }
+
+    .mobile-navigation {
+      list-style-type: none;
+      padding-left: 0 !important;
+    }
+
+    .mobile-navigation li {
+      text-align: center;
+    }
+
+    .mobile-navigation li a {
+      color: #023400;
+      display: block;
+      padding: .25em 0;
+    }
+
+    .mobile-nav-button button {
+      float: right;
+      margin: 5px 0;
+    }
+
+    .mobile-navigation {
+      display: none;
+    }
+
+    .show {
+      display: block !important;
+    }
+}
+
+/* -------------------------------------
+PRINT PAGE
+--------------------------------------*/
+.print-thumbnail {
+  background: url('img/print.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 1em 0;
+  height: 17em;
+}
+
+.print-thumbnail a {
+  color: white;
+  text-align: center;
+  line-height: 16em;
+  width: 100%;
+  display: block;
+}
+
+.print-thumbnail a:hover {
+  color: white;
+}
+
+/* -------------------------------------
+VIDEO PAGE
+--------------------------------------*/
+.video-thumbnail {
+  background: url('img/video.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 1em 0;
+  height: 11em;
+}
+
+.video-thumbnail a i {
+  font-size: 5em;
+}
+
+.video-thumbnail a {
+  color: white;
+  text-align: center;
+  line-height: 13em;
+  width: 100%;
+  display: block;
+}
+
+.video-thumbnail a:hover {
+  color: white;
+}
