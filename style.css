@@ -3,6 +3,7 @@ GENERAL
 --------------------------------------*/
 body {
   background-color: #f2f2f2 !important;
+  padding-bottom: 5em;
 }
 
 .no-padding {
@@ -41,6 +42,18 @@ label {
 
 .dark-filter:hover {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-submit {
+  background-color: #023400;
+  border-radius: 0 !important;
+  color: #F1D200;
+}
+
+.btn-submit:hover {
+  background-color: #034700;
+  border-radius: 0 !important;
+  color: #F1D200 !important;
 }
 
 /* -------------------------------------
@@ -85,13 +98,20 @@ nav ul li a:active {
   padding-bottom: 15px;
 }
 
-@media only screen and (min-width: 990px) {
+.current {
+  text-decoration: none;
+  color: #023400;
+  border-bottom: solid 5px #023400;
+  padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 1200px) {
   .mobile-navigation, .mobile-nav-button {
     display: none;
   }
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1200px) {
     nav ul {
       display: none;
     }
@@ -128,6 +148,10 @@ nav ul li a:active {
 /* -------------------------------------
 PRINT PAGE
 --------------------------------------*/
+.card-text {
+  padding: 1em;
+}
+
 .print-thumbnail {
   background: url('img/print.jpg');
   background-size: cover;

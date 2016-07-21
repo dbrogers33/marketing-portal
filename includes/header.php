@@ -24,14 +24,15 @@
           <!-- Desktop Navigation -->
           <nav>
             <ul>
-              <li><a href="marketing-request.php">Marketing Request</a></li>
-              <li><a href="print.php">Print</a></li>
-              <li><a href="video.php">Video</a></li>
-              <li><a href="social.php">Social</a></li>
-              <li><a href="calendar.php">Calendar</a></li>
-              <li><a href="swag-request.php">SWAG Request</a></li>
-              <li><a href="website-suggestions.php">Website Suggestions</a></li>
-              <li><a href="submit-story.php">Submit Story</a></li>
+              <li><a href="/marketing-request.php">Marketing Request</a></li>
+              <li><a href="/print.php">Print</a></li>
+              <li><a href="/video.php">Video</a></li>
+              <li><a href="/radio.php">Radio</a></li>
+              <li><a href="/social.php">Social</a></li>
+              <li><a href="/calendar.php">Calendar</a></li>
+              <li><a href="/swag-request.php">SWAG Request</a></li>
+              <li><a href="/website-suggestions.php">Website Suggestions</a></li>
+              <li><a href="/submit-story.php">Submit Story</a></li>
             </ul>
           </nav>
           <!-- End Desktop Navigation -->
