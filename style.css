@@ -105,6 +105,26 @@ nav ul li a:active {
   padding-bottom: 15px;
 }
 
+.dropdown-content {
+  position: absolute;
+  background-color: white;
+  left: -10px;
+  z-index: 100;
+  border-right: solid 1px gray;
+  border-left: solid 1px gray;
+  border-bottom: solid 1px gray;
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block !important;
+}
+
+.dropdown-content li {
+  display: block;
+  padding: 0 2em;
+}
+
 @media only screen and (min-width: 1200px) {
   .mobile-navigation, .mobile-nav-button {
     display: none;
